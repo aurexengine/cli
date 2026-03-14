@@ -1,0 +1,29 @@
+{
+  "name": "aurexengine/cli",
+  "description": "CLI tools for AurexEngine",
+  "type": "library",
+  "require": {
+    "php": "^8.1",
+    "aurexengine/core": "^1.0",
+    "aurexengine/http": "^1.0",
+    "aurexengine/routing": "^1.0",
+    "aurexengine/mvc": "^1.0",
+    "aurexengine/database": "^1.0",
+    "aurexengine/auth": "^1.0",
+    "aurexengine/cli": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "AurexEngine\\CLI\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Ersel Magbanua",
+      "email": "magbanuaersel@gmail.com"
+    }
+  ],
+  "bin": [
+    "bin/aurex"
+  ]
+}
