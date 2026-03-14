@@ -7,9 +7,7 @@
   },
   "autoload": {
     "psr-4": {
-      "AurexEngine\\CLI\\": "src/",
-      "AurexEngine\\CLI\\Console": "src/Console",
-      "AurexEngine\\CLI\\Console\\Commands": "src/Console/Commands"
+      "AurexEngine\\CLI\\": "src/"
     }
   },
   "authors": [
